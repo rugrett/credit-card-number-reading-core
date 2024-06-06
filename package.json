@@ -1,0 +1,25 @@
+{
+  "name": "credit-card-number-reading",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "vite",
+    "build": "tsx & vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "credit card number reading",
+    "read number credit card"
+  ],
+  "author": "Ruslan Zamalov (zamruma@gmail.com)",
+  "license": "ISC",
+  "description": "core library for credit card number reading from web-sites",
+  "devDependencies": {
+    "eslint": "9.4.0",
+    "prettier": "3.3.0",
+    "typescript": "5.4.5",
+    "vite": "5.2.12"
+  }
+}

@@ -1,0 +1,57 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul[role='list'], ol[role='list'] {
+    list-style: none;
+}
+
+img, picture, svg, video, canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+img, picture, svg, video, canvas {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.user_device {
+    display: flex;
+}
+
+.video {
+    height: 440px;
+    width: 430px;
+    margin: 0 auto;
+}
+
+.btn_camera {
+    display: flex;
+    padding: 16px;
+    width: 240px;
+    font-size: 18px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.input_card {
+    padding: 12px;
+    font-size: 18px;
+    width: 240px;
+    border-radius: 20px;
+    border: 1px solid red
+}

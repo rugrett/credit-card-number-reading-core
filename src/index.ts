@@ -29,6 +29,7 @@ async function getVideoDevicesOnly() {
     throw new Error("Unable to get video devices only");
   }
 }
+
 // TODO доделать выключение стрима :)
 // function appendButtonStopStream(videoElem: HTMLVideoElement) {
 //   const mediaSource = new MediaStream(videoElem.srcObject);
